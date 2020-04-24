@@ -1,0 +1,540 @@
+<html>
+
+	<head>
+	
+		<title>Technology - BBC News</title>
+		
+		<style type="text/css">
+		
+			#topbar {
+				width:1500px;
+				margin:auto;
+				height:40px;
+
+			}
+			
+			body {
+				margin:0;
+				padding:0;
+				font-family: Arial, Helvetica, sans-serif;
+				
+			}
+			
+			#logo {
+				margin-top:8px;
+				margin-left:100px;
+				width:100px;
+				float:left;
+				margin-right:8px;
+				
+			}
+			
+			.topbar-section {
+				float:left;
+				border-left:2px #B22222 solid;
+				height:100px;
+				
+			}
+			
+			#login {
+				width:60px;
+				margin:20px 5px;
+				float:left;
+				
+			}
+			
+			#login-text {
+				font-weight:bold;
+				font-size:90%;
+				position:relative;
+				top:35px;
+				padding-right:50px;
+				
+			}
+			
+			#bell {
+				height:25px;
+				margin:30px 1px;
+				
+			}
+			
+			#bell-div {
+				margin:0px 5px;
+				float:left;
+				
+			}
+			
+			#topbar-menu {
+				font-weight:bold;
+				font-size:90%;
+				margin:0px 10px;
+				position:relative;
+				top:35px;
+				padding-right:50px;
+				
+				
+			}
+			
+			#search-box {
+				background-color:gray;
+				border:none;
+				font-weight:bold;
+				font-size:14px;
+				padding:5px;
+				margin:30px 0px 25px 10px;
+				float:left;
+				
+			}
+			
+			#magnify {
+				width:30px;
+				margin:30px 0px;
+				float:left;
+			
+			}
+			
+			.clear {
+				clear:both;
+			}
+			
+			#menubar-container {
+				border-top:3px solid #B22222;
+				background-color:#B22222;
+				width:1500px;
+				margin:auto;
+				height:90px;
+				
+			}
+			
+			#menubar {
+				width:1500px;
+				margin:0px auto;
+				height:40px;
+				
+			}
+			
+			h1 {
+				padding:0;
+				margin:0;
+				color:white;
+				font-size:40px;
+				font-weight:normal;
+				padding-top:10px;
+				float:left;
+				
+			}
+			
+			#location {
+				border:2px gray solid;
+				float:right;
+				width:180px;
+				padding:10px 10px 0px 5px;
+				margin:10px 30px 10px 0;
+				
+				
+			}
+			
+			#location a {
+				color:white;
+				text-decoration:none;
+				font-size:20px;
+				position:relative;
+				top:-15px;
+				left:5px;
+				
+			}
+			
+			#location a:hover {
+				text-decoration:underline;
+				
+			}
+			
+			#location img {
+					height:35px;
+					margin-left:5px;
+					position:relative;
+					top:-5px;
+				
+			}
+			
+			#menubar2-container {
+				background-color:#8B0000;
+				width:100%;
+				
+			}
+			
+			#menubar2 {
+				width:1500px;
+				margin:0 auto;
+				height:40px;
+				
+			}
+			
+			#menubar2 a {
+				color:white;
+				text-decoration:none;
+				padding:0 10px;
+				border-right:1px solid gray;
+				font-size:20px;
+				position:relative;
+				top:5px;
+				
+			}
+			
+			#menubar2 a:hover {
+				text-decoration:underline;
+				
+			}
+			
+			.noborder {
+				border:none !important;
+			
+			}
+			
+			#downarrow {
+				height:20px;
+				position:relative;
+				top:10px;
+				
+			}
+			
+			#pagecontainer {
+				width:900px;
+				margin: 0 auto;
+				
+			}
+			
+			h2 {
+				font-weight:normal;
+				margin:20px auto;
+				font-size:40px;
+				border-bottom:2px solid #B22222;
+				width:160px;
+				position:relative;
+				right:600px;
+				
+			}
+			
+			h3 a {
+				color:black;
+				font-size:45px;
+				text-decoration:none;
+				position:relative;
+				right:240px;
+				
+			}
+			
+			h3 a:hover {
+				color:#008080;
+				
+			}
+			
+			#article {
+				color:#8a8a5c;
+				width:220px;
+				float:left;
+				position:relative;
+				right:220px;
+				
+			}
+			
+			.clock-link {
+					height:15px;
+					position:relative;
+					top:2px;
+				
+			}
+			
+			.topic-link {
+				text-decoration:none;
+				color:#B22222;
+				border-left:1px solid gray;
+				padding-left:10px;
+				
+			}
+			
+			#article a:hover {
+				color:#4d94ff;
+				
+			}
+			
+			.date {
+				padding-right:10px;
+				color:#8a8a5c;
+				
+			}
+			
+			#articlecontainer {
+				float:left;
+				width:830px;
+				border-right:2px solid #B22222;
+				
+			}
+			
+			#article-image {
+					height:350px;
+					width:600px;
+					margin-left:10px;
+					position:relative;
+					right:180px;
+				
+			}
+			
+			#article-line {
+					border-top:2px solid #B22222;
+					width:70px;
+				
+			}
+			
+			.link-1 {
+				font-weight:bold;
+				color:black;
+				text-decoration:none;
+				
+			}
+			
+			#Watch-Listen {
+				margin-left:20px;
+				width:350px;
+				float:right;
+				position:relative;
+				left:310px;
+				top:-450px;
+				
+				
+			}
+			
+			h4 {
+				font-weight:normal;
+				font-size:20px;
+				position:relative;
+				right:15px;
+				
+			}
+			
+			.article-side-image {
+				float:left;
+				width:90px;
+				margin-right:10px;
+				
+			}
+			
+			.watch-listen-line {
+				text-decoration:none;
+				color:black;
+				font-weight:bold;
+				font-size:17px;
+				margin-left:20px;
+				
+			}
+			
+			.watch-listen-line:hover {
+				color:#4d94ff;
+				
+			}
+			
+			.side-article {
+				float:right;
+				width:250px;
+				position:relative;
+				top:-10px;
+				
+			}
+			
+			.no-border {
+				border-left:none;
+				padding:0;
+				
+			}
+			
+			.border-right {
+				border-right:1px solid gray;
+				
+			}
+		
+		
+		</style>
+	
+	</head>
+	
+	<body>
+	
+		<div id="topbar">
+		
+			<img id="logo" src="FREELy.png">
+			
+			<div id="signin-div" class="topbar-section">
+			
+				<img id="login" src="LOGIN.png">
+				<spam id="login-text">Sign in</spam>
+			
+			</div>
+			
+			<div id="bell-div">
+			
+				<img id="bell" src="bell.png">
+			
+			</div>
+			
+			<div class="topbar-section">
+				
+				<spam id="topbar-menu">News</spam>
+				
+			</div>
+			
+			<div class="topbar-section">
+				
+				<spam id="topbar-menu">Sport</spam>
+				
+			</div>
+			
+			<div class="topbar-section">
+				
+				<spam id="topbar-menu">Weather</spam>
+				
+			</div>
+			
+			<div class="topbar-section">
+				
+				<spam id="topbar-menu">TV</spam>
+				
+			</div>
+			
+			<div class="topbar-section">
+				
+				<spam id="topbar-menu">Radio</spam>
+				
+			</div>
+			
+			<div class="topbar-section">
+				
+				<spam id="topbar-menu">More</spam>
+				
+			</div>
+			
+			<div class="topbar-section">
+				
+				<input id="search-box" type="text" value="search">
+				<img id="magnify" src="search.png">
+				
+			</div>
+		
+		</div>
+		
+		<div class="clear"></div>
+		
+		<div id="menubar-container">
+		
+			<div id="menubar">
+			
+				<h1>FREELy</h1>
+				<div id="location">
+					<a href="">Find Location</a>
+					<img src="location.png">
+				</div>
+			
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div id="menubar2-container">
+			
+				<div id="menubar2">
+				
+					<a href="">Home</a>
+					<a href="">UK</a>
+					<a href="">World</a>
+					<a href="">Business</a>
+					<a href="">Politics</a>
+					<a href="">Tech</a>
+					<a href="">Science</a>
+					<a href="">Health</a>
+					<a href="">Education</a>
+					<a href="">Entertainment & Arts</a>
+					<a href="">Video & Audio</a>
+					<a href="" class="noborder">More</a>
+					<img id="downarrow" src="down.png">
+				
+				
+				
+				</div>
+			
+			
+			
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div id="pagecontainer">
+			
+				<div id="article-1">
+			
+					<h2>Technology</h2>
+					<div id="articlecontainer">
+						<h3><a href="">This link is for first article.</a></h3>
+						<div id="article">
+							<p>Articles are words that define a noun as specific or unspecific. Consider the following examples: After the long day, the cup of tea tasted particularly good. By using the article the, we've shown that it was one specific day that was long and one specific cup of tea that tasted good.</p>
+							
+							<p><img class="clock-link" src="clock.png"> <spam class="date">16 April 2020</spam>  <a class="topic-link" href="">Technology</a></p>
+							
+							<hr id="article-line" align="left">
+							
+							<p><a class="link-1" href=""> Fisrt of two links</a><p>
+							<p><a class="link-1" href=""> Second of two links</a></p>
+							
+							
+						</div>
+						
+						<img id="article-image" src="article.png">
+						
+					</div>
+			
+				</div>
+				
+				
+				<div id="watch-listen">
+					<h4>Watch/Listen</h4>
+					<img class=" article-side-image" src="video-1.png">
+					<div class="side-article">
+						<p><a class="watch-listen-line" href="">Video number one</a></p>
+						<p><img class="clock-link" src="clock.png"> <spam class="date">16 April 2020</spam>  </p>
+						
+					</div>
+					
+					<div class="clear"></div>
+					
+					<img class=" article-side-image" src="video-1.png">
+					<div class="side-article">
+						<p><a class="watch-listen-line" href="">Video number two</a></p>
+						<p><img class="clock-link" src="clock.png"> <spam class="date border-right">20 April 2020</spam>  <br><a class="topic-link no-border" href="">Technology</a></p>
+						
+					</div>
+					
+					<div class="clear"></div>
+					
+					<img class=" article-side-image" src="video-1.png">
+					<div class="side-article">
+						<p><a class="watch-listen-line" href="">Video number three</a></p>
+						<p><img class="clock-link" src="clock.png"> <spam class="date border-right">25 April 2020</spam>  <br><a class="topic-link no-border" href="">Entertainment & Arts</a></p>
+						
+					</div>
+					
+					<div class="clear"></div>
+					
+					<img class=" article-side-image" src="video-1.png">
+					<div class="side-article">
+						<p><a class="watch-listen-line" href="">Video number four</a></p>
+						<p><img class="clock-link" src="clock.png"> <spam class="date border-right">27 April 2020</spam>  <br><a class="topic-link no-border" href="">Video & Audio</a></p>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+		
+		</div>
+		
+	</body>
+
+
+</html>
