@@ -1,1 +1,1 @@
-# Projects on WEB DEVELOPMENT
+# Projects on jQuery
